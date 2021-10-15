@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A096DBE2719E6FA00909E2D /* dino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A096DBD2719E6FA00909E2D /* dino.jpg */; };
 		6ABC3D1E27172CF400185A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC3D1D27172CF400185A68 /* AppDelegate.swift */; };
 		6ABC3D2027172CF400185A68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC3D1F27172CF400185A68 /* ContentView.swift */; };
 		6ABC3D2427172CF600185A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC3D2327172CF600185A68 /* Assets.xcassets */; };
 		6ABC3D2727172CF600185A68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC3D2627172CF600185A68 /* Preview Assets.xcassets */; };
-		6ABC3D3027172D6D00185A68 /* checker.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC3D2F27172D6D00185A68 /* checker.png */; };
 		6ABC3D3227172DA800185A68 /* itp-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC3D3127172DA800185A68 /* itp-logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A096DBD2719E6FA00909E2D /* dino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dino.jpg; sourceTree = "<group>"; };
 		6ABC3D1A27172CF400185A68 /* AR Anchor PG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Anchor PG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABC3D1D27172CF400185A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ABC3D1F27172CF400185A68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6ABC3D2327172CF600185A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ABC3D2627172CF600185A68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6ABC3D2F27172D6D00185A68 /* checker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checker.png; sourceTree = "<group>"; };
 		6ABC3D3127172DA800185A68 /* itp-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "itp-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,6 @@
 				6ABC3D1F27172CF400185A68 /* ContentView.swift */,
 				6ABC3D2327172CF600185A68 /* Assets.xcassets */,
 				6ABC3D2D27172D5100185A68 /* Images */,
-				6ABC3D2E27172D6D00185A68 /* Textures */,
 				6ABC3D2527172CF600185A68 /* Preview Content */,
 			);
 			path = ARAnchorPlayground;
@@ -76,17 +75,10 @@
 		6ABC3D2D27172D5100185A68 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A096DBD2719E6FA00909E2D /* dino.jpg */,
 				6ABC3D3127172DA800185A68 /* itp-logo.jpg */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		6ABC3D2E27172D6D00185A68 /* Textures */ = {
-			isa = PBXGroup;
-			children = (
-				6ABC3D2F27172D6D00185A68 /* checker.png */,
-			);
-			path = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABC3D3027172D6D00185A68 /* checker.png in Resources */,
+				6A096DBE2719E6FA00909E2D /* dino.jpg in Resources */,
 				6ABC3D2727172CF600185A68 /* Preview Assets.xcassets in Resources */,
 				6ABC3D3227172DA800185A68 /* itp-logo.jpg in Resources */,
 				6ABC3D2427172CF600185A68 /* Assets.xcassets in Resources */,
